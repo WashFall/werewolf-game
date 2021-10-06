@@ -53,7 +53,7 @@
     "spriteId": {"name":"spr_Wolf_attack","path":"sprites/spr_Wolf_attack/spr_Wolf_attack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

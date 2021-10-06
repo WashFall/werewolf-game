@@ -6,8 +6,8 @@ var horizontal = right - left;
 var vertical = down - up;
 
 
+
 if (horizontal != 0 || vertical != 0){
-	image_angle = 0;
     var MoveSpeed = 3;
     var playerDir = point_direction(0, 0, horizontal, vertical);
     if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall )) x += lengthdir_x(MoveSpeed, playerDir);
@@ -15,30 +15,31 @@ if (horizontal != 0 || vertical != 0){
 
 }
 
-image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 
-if(mouse_check_button_pressed(mb_left) && CanAttack)
-{
-	CanAttack = false;
-	alarm[2] = AttackSpeed;
-	var playerCenterX = x + sprite_width / 2;
-	var playerCenterY = y + sprite_width / 2;
+if(!alt){
+	image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
+	if(mouse_check_button_pressed(mb_left)&&CanAttack){
+		CanAttack = false;
+				alarm[2] = AttackSpeed;
+				var playerCenterX = x ;
+				var playerCenterY = y ;
+				var dir = point_direction(playerCenterX, playerCenterY, mouse_x, mouse_y);
+				var LEN = 32;
+				var hitboxX = lengthdir_x(LEN, dir) + playerCenterX;
+				var hitboxY = lengthdir_y(LEN, dir) + playerCenterY;
 	
-	var dir = point_direction(playerCenterX, playerCenterY, mouse_x, mouse_y);
-	
-	var LEN = 32;
-	var hitboxX = lengthdir_x(LEN, dir) + playerCenterX;
-	var hitboxY = lengthdir_y(LEN, dir) + playerCenterY;
-	
-	var hitbox = instance_create_layer(hitboxX, hitboxY, "Instances", oHitbox);
-	hitbox.creator = id;
-	hitbox.damage = 1;
-	sprite_index = spr_Wolf_attack;
+				var hitbox = instance_create_layer(hitboxX, hitboxY, "Hidden", oHitbox);
+				hitbox.creator = id;
+				hitbox.damage = 1;
+				sprite_index = spr_Wolf_attack;
+	}
 }
+else AltControls();
+	
+	
 
 if(Hp == 0)
 {
 	instance_change(oDead, true);
 }
-
 event_inherited();

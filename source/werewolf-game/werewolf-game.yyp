@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"trashcontainer","path":"sprites/trashcontainer/trashcontainer.yy",},"order":6,},
     {"id":{"name":"spr_swat_walk_Sheet","path":"sprites/spr_swat_walk_Sheet/spr_swat_walk_Sheet.yy",},"order":16,},
+    {"id":{"name":"AltControls","path":"scripts/AltControls/AltControls.yy",},"order":1,},
+    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},"order":16,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"spr_sheep","path":"sprites/spr_sheep/spr_sheep.yy",},"order":12,},
     {"id":{"name":"Titlescreen","path":"sprites/Titlescreen/Titlescreen.yy",},"order":21,},
