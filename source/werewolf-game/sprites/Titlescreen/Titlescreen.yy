@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e7ae903b-dd78-4b90-858e-720f04c7610d","path":"sprites/Titlescreen/Titlescreen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7ae903b-dd78-4b90-858e-720f04c7610d","path":"sprites/Titlescreen/Titlescreen.yy",},"LayerId":{"name":"48c39204-7817-4f98-8f31-6fdf4edf521b","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Titlescreen","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","name":"e7ae903b-dd78-4b90-858e-720f04c7610d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c104ead6-2333-40ee-89f2-594dc4454caf","path":"sprites/Titlescreen/Titlescreen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c104ead6-2333-40ee-89f2-594dc4454caf","path":"sprites/Titlescreen/Titlescreen.yy",},"LayerId":{"name":"f9926e2a-0ad8-455c-8ea0-7bda5a86f7dd","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Titlescreen","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","name":"c104ead6-2333-40ee-89f2-594dc4454caf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Titlescreen","path":"sprites/Titlescreen/Titlescreen.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c0f231a0-6a64-429b-8886-2b565301b3df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7ae903b-dd78-4b90-858e-720f04c7610d","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"655a06c5-8195-476d-b1ed-ec3b9b8b3992","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c104ead6-2333-40ee-89f2-594dc4454caf","path":"sprites/Titlescreen/Titlescreen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48c39204-7817-4f98-8f31-6fdf4edf521b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f9926e2a-0ad8-455c-8ea0-7bda5a86f7dd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "werewolf-game",
-    "path": "werewolf-game.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Titlescreen",
