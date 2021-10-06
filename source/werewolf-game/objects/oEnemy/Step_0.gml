@@ -10,3 +10,5 @@ if(FireTimer>=60/FireRate){
 	inst.vspeed = lengthdir_y(ShotSpeed, playerDir);
 	FireTimer=0;
 }
+
+image_angle = playerDir - 90;

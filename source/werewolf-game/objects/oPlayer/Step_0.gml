@@ -5,6 +5,7 @@ var down = keyboard_check(ord("S"));
 var horizontal = right - left;
 var vertical = down - up;
 
+
 if (horizontal != 0 || vertical != 0){
     var MoveSpeed = 3;
     var playerDir = point_direction(0, 0, horizontal, vertical);
@@ -12,9 +13,11 @@ if (horizontal != 0 || vertical != 0){
     var yAdd = lengthdir_y(MoveSpeed, playerDir);
     x = x + xAdd;
     y = y + yAdd;
+
 }
 
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+
+image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 
 if(Inv){
 	InvTimer++;

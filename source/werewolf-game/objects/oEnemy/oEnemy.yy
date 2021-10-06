@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "spr_Police_walk",
+    "path": "sprites/spr_Police_walk/spr_Police_walk.yy",
   },
   "solid": false,
   "visible": true,
