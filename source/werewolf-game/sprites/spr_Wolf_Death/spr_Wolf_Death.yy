@@ -74,7 +74,7 @@
     "spriteId": {"name":"spr_Wolf_Death","path":"sprites/spr_Wolf_Death/spr_Wolf_Death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
