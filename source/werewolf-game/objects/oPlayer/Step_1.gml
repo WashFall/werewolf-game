@@ -1,8 +1,11 @@
 /// @description Actions
 // You can write your code in this editor
 
-if(mouse_check_button_pressed(mb_left))
+if(mouse_check_button_pressed(mb_left)&&CanAttack)
 {
+	CanAttack = false;
+	alarm_set(3, AttackTime);
+	
 	var playerCenterX = x + sprite_width / 2;
 	var playerCenterY = y + sprite_width / 2;
 	
