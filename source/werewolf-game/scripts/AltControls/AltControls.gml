@@ -24,6 +24,7 @@ function AltControls(){
 					break;
 			}
 			if(CanAttack){
+				audio_play_sound(SndHit,0,0);
 				CanAttack = false;
 				alarm[2] = AttackSpeed;
 				var playerCenterX = x ;

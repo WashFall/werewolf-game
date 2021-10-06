@@ -16,10 +16,11 @@ if (horizontal != 0 || vertical != 0){
 }
 
 
-if(!alt){
+if(!AltControl){
 	image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 	if(mouse_check_button_pressed(mb_left)&&CanAttack){
 		CanAttack = false;
+		audio_play_sound(SndHit,0,0);
 				alarm[2] = AttackSpeed;
 				var playerCenterX = x ;
 				var playerCenterY = y ;
@@ -28,7 +29,7 @@ if(!alt){
 				var hitboxX = lengthdir_x(LEN, dir) + playerCenterX;
 				var hitboxY = lengthdir_y(LEN, dir) + playerCenterY;
 	
-				var hitbox = instance_create_layer(hitboxX, hitboxY, "Hidden", oHitbox);
+				var hitbox = instance_create_layer(hitboxX, hitboxY, "Instances", oHitbox);
 				hitbox.creator = id;
 				hitbox.damage = 1;
 				sprite_index = spr_Wolf_attack;
@@ -40,6 +41,7 @@ else AltControls();
 
 if(Hp == 0)
 {
+	audio_play_sound(SndDeath,0,0);
 	instance_change(oDead, true);
 }
 event_inherited();
