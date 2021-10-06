@@ -1,0 +1,1 @@
+audio_play_sound(SndSoundtrack,0,0);

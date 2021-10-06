@@ -7,6 +7,7 @@ if instance_exists(oPlayer)
 
 	image_angle = playerDir - 90;
 	if(CanAttack){
+		audio_play_sound(SndShoot,0,0);
 		CanAttack = false;
 		alarm[2] = AttackSpeed;
 		var inst = instance_create_depth(x ,y ,0,oBullet);
@@ -15,6 +16,7 @@ if instance_exists(oPlayer)
 	}
 
 	if((place_meeting(x,y,oHitbox))&&!Inv){
+		audio_play_sound(SndEnemyHurt,0,0);
 		alarm[1] = InvTime;
 		Hp--;
 		Inv = true;
@@ -23,5 +25,9 @@ if instance_exists(oPlayer)
 
 	event_inherited();
 
-	if(Hp<1) instance_destroy();
+	if(Hp<1){
+		audio_play_sound(SndEnemyDeath,0,0);
+		instance_destroy();
+		
+	}
 }
