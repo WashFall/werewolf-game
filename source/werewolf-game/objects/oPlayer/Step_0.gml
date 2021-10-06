@@ -30,6 +30,6 @@ if(Inv){
 
 if(hp == 0)
 {
-	sprite_index = spr_Wolf_Death;
+	instance_change(oDead, true);
 	exit;
 }

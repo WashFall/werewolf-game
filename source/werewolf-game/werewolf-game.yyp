@@ -21,6 +21,7 @@
     {"id":{"name":"spr_police_shoot","path":"sprites/spr_police_shoot/spr_police_shoot.yy",},"order":11,},
     {"id":{"name":"spr_Wolf_Dead","path":"sprites/spr_Wolf_Dead/spr_Wolf_Dead.yy",},"order":20,},
     {"id":{"name":"sprHitbox","path":"sprites/sprHitbox/sprHitbox.yy",},"order":2,},
+    {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":6,},
     {"id":{"name":"oHitbox","path":"objects/oHitbox/oHitbox.yy",},"order":2,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":3,},
