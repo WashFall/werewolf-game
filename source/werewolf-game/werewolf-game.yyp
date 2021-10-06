@@ -12,6 +12,7 @@
     {"id":{"name":"spr_Wolf_Death","path":"sprites/spr_Wolf_Death/spr_Wolf_Death.yy",},"order":19,},
     {"id":{"name":"wulfslash_Sheet","path":"sprites/wulfslash_Sheet/wulfslash_Sheet.yy",},"order":9,},
     {"id":{"name":"oStartGame","path":"objects/oStartGame/oStartGame.yy",},"order":5,},
+    {"id":{"name":"spr_Retry","path":"sprites/spr_Retry/spr_Retry.yy",},"order":24,},
     {"id":{"name":"spr_Wolf_attack","path":"sprites/spr_Wolf_attack/spr_Wolf_attack.yy",},"order":22,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":18,},
     {"id":{"name":"sprWolfUI","path":"sprites/sprWolfUI/sprWolfUI.yy",},"order":23,},
