@@ -27,3 +27,9 @@ if(Inv){
 		InvTimer = 0;
 	}
 }
+
+if(hp == 0)
+{
+	sprite_index = spr_Wolf_Death;
+	exit;
+}
