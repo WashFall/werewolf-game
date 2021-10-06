@@ -3,7 +3,7 @@
 function Damage(){
 	alarm[1] = InvTime;
 	Hp--;
+	image_index = 0;
 	oPlayer.sprite_index = sPlayerHurt;
 	Inv = true;
-	RegenTimer = 0;
 }
