@@ -26,6 +26,7 @@
     {"id":{"name":"spr_Wolf_idle","path":"sprites/spr_Wolf_idle/spr_Wolf_idle.yy",},"order":7,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":18,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
+    {"id":{"name":"oDeadAngle","path":"objects/oDeadAngle/oDeadAngle.yy",},"order":8,},
     {"id":{"name":"spr_swat","path":"sprites/spr_swat/spr_swat.yy",},"order":14,},
     {"id":{"name":"spr_police_shoot","path":"sprites/spr_police_shoot/spr_police_shoot.yy",},"order":11,},
     {"id":{"name":"spr_Wolf_Dead","path":"sprites/spr_Wolf_Dead/spr_Wolf_Dead.yy",},"order":20,},

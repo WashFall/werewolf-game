@@ -42,6 +42,7 @@ else AltControls();
 
 if(Hp == 0)
 {
+	oDeadAngle.angle = image_angle;
 	audio_play_sound(SndDeath,0,0);
 	instance_change(oDead, true);
 }
