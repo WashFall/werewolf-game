@@ -33,7 +33,12 @@ if(mouse_check_button_pressed(mb_left)&&CanAttack)
 	var hitbox = instance_create_layer(hitboxX, hitboxY, "Instances", oHitbox);
 	hitbox.creator = id;
 	hitbox.damage = 1;
+	sprite_index = spr_Wolf_attack;
 }
 
+if(Hp == 0)
+{
+	instance_change(oDead, true);
+}
 
 event_inherited();
