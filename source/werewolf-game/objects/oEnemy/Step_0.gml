@@ -2,8 +2,8 @@ if instance_exists(oPlayer)
 {
 	var playerDir = point_direction(x,y,oPlayer.x,oPlayer.y);
 	image_angle = 0;
-	if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall )) x += lengthdir_x(MoveSpeed, playerDir);
-	if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall )) y += lengthdir_y(MoveSpeed,playerDir);
+	if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall ) && !place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oRoundWall )) x += lengthdir_x(MoveSpeed, playerDir);
+	if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oRoundWall )) y += lengthdir_y(MoveSpeed,playerDir);
 
 	image_angle = playerDir - 90;
 	if(CanAttack){
