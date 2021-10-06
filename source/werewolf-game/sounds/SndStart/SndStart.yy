@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SndEnemyDeath.wav",
-  "duration": 0.191315,
+  "soundFile": "SndStart.wav",
+  "duration": 0.106508,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SndEnemyDeath",
+  "name": "SndStart",
   "tags": [],
   "resourceType": "GMSound",
 }

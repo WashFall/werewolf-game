@@ -199,8 +199,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "werewolf-game",
-    "path": "werewolf-game.yyp",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
   "name": "Font1",
