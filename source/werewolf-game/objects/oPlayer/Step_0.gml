@@ -32,6 +32,7 @@ if(!AltControl){
 				var hitbox = instance_create_layer(hitboxX, hitboxY, "Instances", oHitbox);
 				hitbox.creator = id;
 				hitbox.damage = 1;
+				image_index = 0;
 				sprite_index = spr_Wolf_attack;
 	}
 }
