@@ -40,6 +40,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":17,},
+    {"id":{"name":"SndSoundtrack","path":"sounds/SndSoundtrack/SndSoundtrack.yy",},"order":7,},
     {"id":{"name":"spr_Wolf_walk","path":"sprites/spr_Wolf_walk/spr_Wolf_walk.yy",},"order":8,},
     {"id":{"name":"sHpFull","path":"sprites/sHpFull/sHpFull.yy",},"order":19,},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":4,},
