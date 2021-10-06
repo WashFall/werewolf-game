@@ -1,5 +1,3 @@
-if(!Inv){
-	hp--;
-	sprite_index=sPlayerHurt;
-	Inv=true;
-}
+/// @description Insert description here
+// You can write your code in this editor
+Damage();
