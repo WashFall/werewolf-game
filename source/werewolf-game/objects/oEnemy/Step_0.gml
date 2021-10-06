@@ -16,7 +16,7 @@ if instance_exists(oPlayer)
 	}
 
 	if((place_meeting(x,y,oHitbox))&&!Inv){
-		
+		audio_play_sound(SndEnemyHurt,0,0);
 		alarm[1] = InvTime;
 		Hp--;
 		Inv = true;
@@ -26,6 +26,7 @@ if instance_exists(oPlayer)
 	event_inherited();
 
 	if(Hp<1){
+		audio_play_sound(SndEnemyDeath,0,0);
 		instance_destroy();
 		
 	}

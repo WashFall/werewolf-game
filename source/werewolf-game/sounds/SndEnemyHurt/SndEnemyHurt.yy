@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.4,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SndHit.wav",
-  "duration": 0.081769,
+  "soundFile": "SndEnemyHurt.wav",
+  "duration": 0.071973,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SndHit",
+  "name": "SndEnemyHurt",
   "tags": [],
   "resourceType": "GMSound",
 }
