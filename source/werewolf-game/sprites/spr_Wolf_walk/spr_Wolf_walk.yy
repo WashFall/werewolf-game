@@ -77,7 +77,7 @@
     "spriteId": {"name":"spr_Wolf_walk","path":"sprites/spr_Wolf_walk/spr_Wolf_walk.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
