@@ -1,1 +1,2 @@
+oScreenShake.shake = true;
 Damage();
