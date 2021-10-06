@@ -16,7 +16,7 @@ if (horizontal != 0 || vertical != 0){
 }
 
 
-if(!AltControl){
+if(AltControl){
 	image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
 	if(mouse_check_button_pressed(mb_left)&&CanAttack){
 		CanAttack = false;
