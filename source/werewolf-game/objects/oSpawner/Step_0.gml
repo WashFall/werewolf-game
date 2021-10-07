@@ -1,20 +1,30 @@
 /// @description 
-
-if(spawnWave)
+SheepTime =  WaveTime+spawnWave*spawn*0.75;
+if(spawnWave||spawnSheep)
 {
+	var type = oPoliceCar;
+	if (spawnSheep) type = oSheepCar;
 	spawn++;
 	var i;
-	spawnWave = false;
-	alarm[0] = WaveTime;
-	//if(irandom(1)==1)
+	if (type!=oSheepCar)
+	{ 
+		spawnWave = false;
+		alarm[0] = WaveTime+spawnWave*spawn/2;
+	}
+	else 
 	{
-		i = instance_create_layer(800,400,"Instances", oPoliceCar);
+		spawnSheep = false;
+		alarm[1] = SheepTime;
+	}
+	if(irandom(1)==1)
+	{
+		i = instance_create_layer(800,390,"Instances", type);
 		i.left = false;
 	}
-	//else
-	//{
-	//	i = instance_create_layer(0,290,"Instances", oPoliceCar);
-	//	i.left = true;
-	//}
+	else
+	{
+		i = instance_create_layer(0,270,"Instances", type);
+		i.left = true;
+	}
 	i.amount = spawn;
 }
