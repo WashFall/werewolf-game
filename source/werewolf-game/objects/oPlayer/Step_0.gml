@@ -1,3 +1,7 @@
+
+if(AltControl)AltControls();
+else Controls();
+
 if(state = states.normal)
 {
 	var left = keyboard_check(ord("A"));
@@ -19,8 +23,7 @@ if(state = states.normal)
 	}
 
 
-	if(!AltControl)AltControls();
-	else Controls();
+	
 	
 	
 
@@ -36,7 +39,7 @@ if(state = states.normal)
 
 if(state = states.blocking)
 {
-	if(AltControl) Shield();
-	else AltShield();
+	if(AltControl) AltShield();
+	else Shield(); 
 	
 }

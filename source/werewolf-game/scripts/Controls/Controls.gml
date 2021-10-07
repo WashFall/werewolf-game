@@ -8,7 +8,7 @@ function Controls(){
 	var LEN = 32;
 	var hitboxX = lengthdir_x(LEN, dir) + playerCenterX;
 	var hitboxY = lengthdir_y(LEN, dir) + playerCenterY;
-	if(mouse_check_button_pressed(mb_left)&&CanAttack)
+	if(mouse_check_button_pressed(mb_left)&&CanAttack&&state!=states.blocking)
 		{
 			CanAttack = false;
 			audio_play_sound(SndHit,0,0);
@@ -22,7 +22,7 @@ function Controls(){
 					image_index = 0;
 					sprite_index = spr_Wolf_attack;
 		}
-	if(mouse_check_button(mb_right))
+	if(mouse_check_button(mb_right)&&Hp>0)
 	{
 		if(instance_exists(oShieldHitbox)) instance_destroy(oShieldHitbox);
 		sprite_index = spr_Wolf_blockOn;
