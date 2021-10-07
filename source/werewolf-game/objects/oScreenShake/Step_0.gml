@@ -8,7 +8,7 @@ if (shake) {
    { 
       shake_magnitude -= shake_fade; 
 
-      if (shake_magnitude <= 0) 
+      if (shake_magnitude <= 1) 
       { 
          camera_set_view_pos(view_camera[0], 0, 0); 
          shake = false; 

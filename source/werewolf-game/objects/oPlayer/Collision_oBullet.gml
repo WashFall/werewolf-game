@@ -1,5 +1,4 @@
-if(state = states.normal)
-{
-	oScreenShake.shake = true;
+if(state = states.normal){
+	ShakeScreen(5,5);
 	Damage();
 }

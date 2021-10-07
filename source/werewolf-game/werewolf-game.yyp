@@ -28,6 +28,7 @@
     {"id":{"name":"oScreenShake","path":"objects/oScreenShake/oScreenShake.yy",},"order":10,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"spr_police","path":"sprites/spr_police/spr_police.yy",},"order":10,},
+    {"id":{"name":"ShakeScreen","path":"scripts/ShakeScreen/ShakeScreen.yy",},"order":3,},
     {"id":{"name":"spr_Wolf_idle","path":"sprites/spr_Wolf_idle/spr_Wolf_idle.yy",},"order":7,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":18,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
