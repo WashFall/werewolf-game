@@ -3,7 +3,7 @@ if(crashed&&!spawned)
 {
 	spawned = true;
 	instance_create_depth(x,y,0,oExplosion);
-	repeat(irandom(amount))
+	repeat(irandom_range(1,amount))
 	{
 		var type = oEnemy;
 		if(irandom(max(1, 10-amount))==1) type = oSwat; 
