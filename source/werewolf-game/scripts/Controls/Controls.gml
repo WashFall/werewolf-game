@@ -28,7 +28,7 @@ function Controls(){
 		sprite_index = spr_Wolf_blockOn;
 		state = states.blocking;
 		var hitbox = instance_create_layer(hitboxX, hitboxY, "Instances", oShieldHitbox);
-		sprite_set_offset(hitbox.sprite_index,40,10);
+		sprite_set_offset(hitbox.sprite_index,40,-5);
 		hitbox.image_angle = image_angle;
 	}
 }

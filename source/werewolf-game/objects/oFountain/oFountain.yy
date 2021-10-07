@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sRoundWall",
-    "path": "sprites/sRoundWall/sRoundWall.yy",
+    "name": "spr_Fountain",
+    "path": "sprites/spr_Fountain/spr_Fountain.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRoundWall",
+  "name": "oFountain",
   "tags": [],
   "resourceType": "GMObject",
 }
