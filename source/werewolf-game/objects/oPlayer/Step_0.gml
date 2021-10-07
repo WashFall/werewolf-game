@@ -1,10 +1,9 @@
 
-if(keyboard_key_press(vk_space))
+if(keyboard_check_pressed(vk_alt))
 {
-	AltControl = true;
 	image_angle = 0;
+	AltControl = !AltControl;
 }
-
 if(AltControl)AltControls();
 else Controls();
 
@@ -40,13 +39,10 @@ if(state = states.normal)
 	event_inherited();
 	
 }
-if(!AltControl) AltControls();
-	else Controls(); 
-
 
 if(state = states.blocking)
 {
-	if(!AltControl) AltShield();
+	if(AltControl) AltShield();
 	else Shield(); 
 	
 	

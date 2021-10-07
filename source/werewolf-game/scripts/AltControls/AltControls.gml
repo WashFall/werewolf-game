@@ -39,7 +39,7 @@ function AltControls(){
 			}
 		}
 	}
-	if(keyboard_check(vk_lshift)&&Hp>0)
+	if((keyboard_check(vk_lshift)||mouse_check_button(mb_right))&&Hp>0)
 	{
 		
 		if(instance_exists(oShieldHitbox)) instance_destroy(oShieldHitbox);
