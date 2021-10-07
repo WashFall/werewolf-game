@@ -1,4 +1,10 @@
 
+if(keyboard_key_press(vk_space))
+{
+	AltControl = true;
+	image_angle = 0;
+}
+
 if(AltControl)AltControls();
 else Controls();
 
