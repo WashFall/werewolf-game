@@ -4,7 +4,7 @@ function Shield(){
 	
 	image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
 	
-	if(mouse_check_button_released(mb_right))
+	if(mouse_check_button_released(mb_right) || Hp < 1)
 	{
 		image_speed = 1;
 		image_index = 0;

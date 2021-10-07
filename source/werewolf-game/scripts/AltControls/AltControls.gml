@@ -23,7 +23,7 @@ function AltControls(){
 					image_angle = 180;
 					break;
 			}
-			if(CanAttack){
+			if(CanAttack && state = states.blocking){
 				audio_play_sound(SndHit,0,0);
 				CanAttack = false;
 				alarm[2] = AttackSpeed;
@@ -39,7 +39,7 @@ function AltControls(){
 			}
 		}
 	}
-	if(keyboard_check(vk_lshift))
+	if(keyboard_check(vk_lshift) && Hp > 0)
 	{
 		
 		if(instance_exists(oShieldHitbox)) instance_destroy(oShieldHitbox);
