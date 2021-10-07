@@ -36,12 +36,13 @@ if(state = states.normal)
 	event_inherited();
 	
 }
-
+if(!AltControl) AltControls();
+	else Controls(); 
 
 
 if(state = states.blocking)
 {
-	if(AltControl) AltShield();
+	if(!AltControl) AltShield();
 	else Shield(); 
 	
 	

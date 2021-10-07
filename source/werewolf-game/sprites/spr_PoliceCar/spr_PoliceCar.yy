@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4345d67a-275f-472f-a469-3c54b1527620","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4345d67a-275f-472f-a469-3c54b1527620","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"f423650f-0ca5-4550-aef7-6de1d075ae6e","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"4345d67a-275f-472f-a469-3c54b1527620","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a170e137-0722-4b2f-86f3-53f2bc741e9f","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a170e137-0722-4b2f-86f3-53f2bc741e9f","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"f423650f-0ca5-4550-aef7-6de1d075ae6e","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"a170e137-0722-4b2f-86f3-53f2bc741e9f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e83b5e8c-a29a-47da-a563-43ffdb7cac33","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e83b5e8c-a29a-47da-a563-43ffdb7cac33","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"f423650f-0ca5-4550-aef7-6de1d075ae6e","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"e83b5e8c-a29a-47da-a563-43ffdb7cac33","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f81ec1fd-a9fc-4732-a79d-28f59f5c4019","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f81ec1fd-a9fc-4732-a79d-28f59f5c4019","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"f423650f-0ca5-4550-aef7-6de1d075ae6e","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"f81ec1fd-a9fc-4732-a79d-28f59f5c4019","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3d9121bf-4239-48b4-ba30-db5aaf8b61d5","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3d9121bf-4239-48b4-ba30-db5aaf8b61d5","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"2f293c93-663e-4e0e-9fb7-fe39b780316c","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"3d9121bf-4239-48b4-ba30-db5aaf8b61d5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"904874cc-76d3-471c-a0ce-4e31e9bb23d3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"904874cc-76d3-471c-a0ce-4e31e9bb23d3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"2f293c93-663e-4e0e-9fb7-fe39b780316c","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"904874cc-76d3-471c-a0ce-4e31e9bb23d3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28e7cf64-df1a-4735-8a32-386f326870a3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28e7cf64-df1a-4735-8a32-386f326870a3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"2f293c93-663e-4e0e-9fb7-fe39b780316c","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"28e7cf64-df1a-4735-8a32-386f326870a3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"afd2f383-34da-4de4-9cc6-8b1b17377caa","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"afd2f383-34da-4de4-9cc6-8b1b17377caa","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"LayerId":{"name":"2f293c93-663e-4e0e-9fb7-fe39b780316c","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","name":"afd2f383-34da-4de4-9cc6-8b1b17377caa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f064de5e-cbdd-4c06-b76f-23c46179a777","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4345d67a-275f-472f-a469-3c54b1527620","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"620eacfc-55fa-4201-ab91-a99c7c7ecbfd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a170e137-0722-4b2f-86f3-53f2bc741e9f","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2a2f3932-f377-4433-9ba7-6f97f85a2419","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e83b5e8c-a29a-47da-a563-43ffdb7cac33","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e57236d9-9d5b-4653-8317-d1b291eca19c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f81ec1fd-a9fc-4732-a79d-28f59f5c4019","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1290a49e-fa80-4ac4-ab3a-ae8564337360","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d9121bf-4239-48b4-ba30-db5aaf8b61d5","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3955bd88-eb75-4fc4-bcde-3953f7bb8979","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"904874cc-76d3-471c-a0ce-4e31e9bb23d3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8a37433b-9f63-40b8-9e2b-45b48aeb5a79","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28e7cf64-df1a-4735-8a32-386f326870a3","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a1da4ce2-e25d-4104-91f0-093874fd9788","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"afd2f383-34da-4de4-9cc6-8b1b17377caa","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f423650f-0ca5-4550-aef7-6de1d075ae6e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f293c93-663e-4e0e-9fb7-fe39b780316c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
