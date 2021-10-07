@@ -1,4 +1,4 @@
-
+event_inherited();
 if(AltControl)AltControls();
 else Controls();
 
@@ -23,7 +23,8 @@ if(state = states.normal)
 	}
 
 
-	
+	if(AltControl)AltControls();
+	else Controls();
 	
 	
 
@@ -33,7 +34,7 @@ if(state = states.normal)
 		audio_play_sound(SndDeath,0,0);
 		instance_change(oDead, true);
 	}
-	event_inherited();
+	
 	
 }
 
