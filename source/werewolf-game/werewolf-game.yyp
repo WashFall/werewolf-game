@@ -35,6 +35,7 @@
     {"id":{"name":"sRoundWall","path":"sprites/sRoundWall/sRoundWall.yy",},"order":25,},
     {"id":{"name":"oDeadAngle","path":"objects/oDeadAngle/oDeadAngle.yy",},"order":8,},
     {"id":{"name":"spr_swat","path":"sprites/spr_swat/spr_swat.yy",},"order":14,},
+    {"id":{"name":"JackeyFont","path":"fonts/JackeyFont/JackeyFont.yy",},"order":1,},
     {"id":{"name":"spr_police_shoot","path":"sprites/spr_police_shoot/spr_police_shoot.yy",},"order":11,},
     {"id":{"name":"spr_Wolf_Dead","path":"sprites/spr_Wolf_Dead/spr_Wolf_Dead.yy",},"order":20,},
     {"id":{"name":"SndHit","path":"sounds/SndHit/SndHit.yy",},"order":0,},
