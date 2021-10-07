@@ -1,0 +1,1 @@
+draw_text(oTimer.x, oTimer.y, "Time: " + string(leveltime));

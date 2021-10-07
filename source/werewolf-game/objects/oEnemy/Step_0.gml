@@ -1,4 +1,4 @@
-if instance_exists(oPlayer)
+ if instance_exists(oPlayer)
 {
 	var playerDir = point_direction(x,y,oPlayer.x, oPlayer.y);
 	image_angle = 0;
@@ -38,7 +38,7 @@ if instance_exists(oPlayer)
 	if(Hp<1){
 		audio_play_sound(SndEnemyDeath,0,0);
 		instance_destroy();
-		
+		oScore.addScore += 100;
 	}
 }
 
