@@ -10,8 +10,8 @@ if(!other.crashed)
 	sprite_index = spr_swat_damage;
 	if(Hp<1)
 	{ 
-		if(instance_exists(oPlayer))instance_change(oSwatDead,true);
-		oScore.addScore += 200;
+		instance_change(oSwatDead,true);
+		if(instance_exists(oPlayer)) oScore.addScore += 200;
 	}
 }	
 			
