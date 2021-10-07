@@ -44,7 +44,7 @@ function AltControls(){
 		
 		if(instance_exists(oShieldHitbox)) instance_destroy(oShieldHitbox);
 		var hitbox = instance_create_layer(x, y, "Instances", oShieldHitbox);
-		sprite_set_offset(hitbox.sprite_index, 40,40);
+		sprite_set_offset(hitbox.sprite_index, 40,30);
 		hitbox.image_angle = image_angle;
 		sprite_index = spr_Wolf_blockOn;
 		state = states.blocking;
