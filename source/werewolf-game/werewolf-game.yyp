@@ -89,6 +89,7 @@
     {"id":{"name":"Barrikad_ramlad","path":"sprites/Barrikad_ramlad/Barrikad_ramlad.yy",},"order":29,},
     {"id":{"name":"wulfblock_Sheet","path":"sprites/wulfblock_Sheet/wulfblock_Sheet.yy",},"order":47,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":16,},
+    {"id":{"name":"spr_crashCloud","path":"sprites/spr_crashCloud/spr_crashCloud.yy",},"order":64,},
     {"id":{"name":"SndSoundtrack","path":"sounds/SndSoundtrack/SndSoundtrack.yy",},"order":7,},
     {"id":{"name":"wulfslash_Sheet59","path":"sprites/wulfslash_Sheet59/wulfslash_Sheet59.yy",},"order":51,},
     {"id":{"name":"spr_Wolf_walk","path":"sprites/spr_Wolf_walk/spr_Wolf_walk.yy",},"order":8,},
