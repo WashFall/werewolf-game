@@ -27,18 +27,26 @@ function AltControls(){
 				audio_play_sound(SndHit,0,0);
 				CanAttack = false;
 				alarm[2] = AttackSpeed;
-				var playerCenterX = x ;
-				var playerCenterY = y ;
-				var dir = point_direction(playerCenterX, playerCenterY, mouse_x, mouse_y);
-				var LEN = 32;
-				var hitboxX = lengthdir_x(LEN, dir) + playerCenterX;
-				var hitboxY = lengthdir_y(LEN, dir) + playerCenterY;
+				
 	
-				var hitbox = instance_create_layer(hitboxX, hitboxY, "Hidden", oHitbox);
+				var hitbox = instance_create_layer(x, y, "Instances", oHitbox);
+				sprite_set_offset(hitbox.sprite_index, 40,40);
+				
+				hitbox.image_angle = image_angle;
 				hitbox.creator = id;
 				hitbox.damage = 1;
 				sprite_index = spr_Wolf_attack;
 			}
 		}
+	}
+	if(keyboard_check(vk_lshift))
+	{
+		
+		if(instance_exists(oShieldHitbox)) instance_destroy(oShieldHitbox);
+		var hitbox = instance_create_layer(x, y, "Instances", oShieldHitbox);
+		sprite_set_offset(hitbox.sprite_index, 40,40);
+		hitbox.image_angle = image_angle;
+		sprite_index = spr_Wolf_blockOn;
+		state = states.blocking;
 	}
 }
