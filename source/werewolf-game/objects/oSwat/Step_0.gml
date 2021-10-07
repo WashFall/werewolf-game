@@ -2,12 +2,12 @@
 {
 	var playerDir = point_direction(x,y,oPlayer.x, oPlayer.y);
 	image_angle = 0;
-	if(distance_to_object(oPlayer) > 100)
+	if(distance_to_object(oPlayer) > 20)
 	{
 		if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall ) && !place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oRoundWall )) x += lengthdir_x(MoveSpeed, playerDir);
 		if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oRoundWall )) y += lengthdir_y(MoveSpeed, playerDir);
 	}
-	else if(distance_to_object(oPlayer) < 70)
+	else if(distance_to_object(oPlayer) < 10)
 	{
 		if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall ) && !place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oRoundWall )) x += lengthdir_x(MoveSpeed, -playerDir);
 		if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oRoundWall )) y += lengthdir_y(MoveSpeed, -playerDir);
@@ -17,7 +17,7 @@
 	if(CanAttack){
 		audio_play_sound(SndShoot,0,0);
 		image_index = 0;
-		sprite_index = spr_police_shoot;
+		sprite_index = spr_swat_shoot;
 		CanAttack = false;
 		alarm[2] = AttackSpeed;
 		var inst = instance_create_depth(x ,y ,0,oBullet);
@@ -44,5 +44,5 @@
 
 if instance_exists(oDead)
 {
-	sprite_index = spr_police;
+	sprite_index = spr_swat;
 }
