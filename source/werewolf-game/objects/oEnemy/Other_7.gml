@@ -1,4 +1,4 @@
-if(sprite_index == spr_police_shoot)
+if(sprite_index != spr_Police_walk)
 {
 	sprite_index = spr_Police_walk;
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sheep",
-    "path": "sprites/spr_sheep/spr_sheep.yy",
+    "name": "spr_sheep_move_Sheet",
+    "path": "sprites/spr_sheep_move_Sheet/spr_sheep_move_Sheet.yy",
   },
   "solid": false,
   "visible": true,

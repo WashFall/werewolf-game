@@ -10,5 +10,6 @@ if (Hp < 5)
 	with (other)
 	{
 		instance_destroy()
+		audio_play_sound(SndHealthpack,0,0);
 	}
 }

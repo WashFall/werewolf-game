@@ -25,14 +25,6 @@
 		inst.vspeed = lengthdir_y(ShotSpeed, playerDir);
 	}
 
-	if((place_meeting(x,y,oHitbox))&&!Inv){
-		audio_play_sound(SndEnemyHurt,0,0);
-		alarm[1] = InvTime;
-		Hp--;
-		Inv = true;
-	
-	}
-
 	event_inherited();
 
 	if(Hp<1){

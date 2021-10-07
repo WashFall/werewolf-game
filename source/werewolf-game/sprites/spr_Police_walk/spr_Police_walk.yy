@@ -53,7 +53,7 @@
     "spriteId": {"name":"spr_Police_walk","path":"sprites/spr_Police_walk/spr_Police_walk.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

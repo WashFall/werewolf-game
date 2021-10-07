@@ -4,3 +4,5 @@ CanAttack = true;
 Inv = false;
 
 state = states.normal;
+
+event_inherited();

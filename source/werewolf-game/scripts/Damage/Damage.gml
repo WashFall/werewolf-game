@@ -6,8 +6,8 @@ function Damage(){
 	Hp--;
 	if(state != states.blocking)
 	{
-		image_index = 0;
-		oPlayer.sprite_index = sPlayerHurt;
+		//image_index = 0;
+		sprite_index = sPlayerHurt;
 	}
 	Inv = true;
 }

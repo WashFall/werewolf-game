@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_swat_shoot","path":"sprites/spr_swat_shoot/spr_swat_shoot.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
