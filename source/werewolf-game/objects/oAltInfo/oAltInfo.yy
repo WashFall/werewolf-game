@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sprShieldHitbox",
-    "path": "sprites/sprShieldHitbox/sprShieldHitbox.yy",
+    "name": "AltInfo",
+    "path": "sprites/AltInfo/AltInfo.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oShieldHitbox",
+  "name": "oAltInfo",
   "tags": [],
   "resourceType": "GMObject",
 }
