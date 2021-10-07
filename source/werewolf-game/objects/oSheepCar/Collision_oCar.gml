@@ -8,7 +8,7 @@
 		sprite_index = spr_police_damage;
 		if(Hp<1)
 		{
-			if(instance_exists(oPlayer))oScore.addScore += 100;
+			oScore.addScore += 100;
 			instance_change(oPoliceDead,true);
 		}
 		
