@@ -23,7 +23,6 @@
     {"id":{"name":"SndStart","path":"sounds/SndStart/SndStart.yy",},"order":6,},
     {"id":{"name":"spr_Retry","path":"sprites/spr_Retry/spr_Retry.yy",},"order":24,},
     {"id":{"name":"spr_Wolf_attack","path":"sprites/spr_Wolf_attack/spr_Wolf_attack.yy",},"order":22,},
-    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},"order":28,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":18,},
     {"id":{"name":"sprWolfUI","path":"sprites/sprWolfUI/sprWolfUI.yy",},"order":23,},
     {"id":{"name":"oScreenShake","path":"objects/oScreenShake/oScreenShake.yy",},"order":10,},
