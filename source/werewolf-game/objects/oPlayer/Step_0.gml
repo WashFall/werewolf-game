@@ -19,7 +19,7 @@ if(state = states.normal)
 	}
 
 
-	if(AltControl)AltControls();
+	if(!AltControl)AltControls();
 	else Controls();
 	
 	
