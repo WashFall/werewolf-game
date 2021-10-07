@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_Retry","path":"sprites/spr_Retry/spr_Retry.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 6.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

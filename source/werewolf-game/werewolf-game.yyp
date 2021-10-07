@@ -66,6 +66,7 @@
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":4,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":5,},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":11,},
+    {"id":{"name":"oRetry","path":"objects/oRetry/oRetry.yy",},"order":15,},
     {"id":{"name":"SndDeath","path":"sounds/SndDeath/SndDeath.yy",},"order":3,},
     {"id":{"name":"Fire_hydrant","path":"sprites/Fire_hydrant/Fire_hydrant.yy",},"order":32,},
     {"id":{"name":"Soptunna","path":"sprites/Soptunna/Soptunna.yy",},"order":38,},
