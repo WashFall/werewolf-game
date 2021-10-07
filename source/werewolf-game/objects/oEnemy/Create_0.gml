@@ -5,4 +5,6 @@ event_inherited();
 addScore = 0;
 
 maxHp = 3;
-Hp = 3;
+Hp = 3
+CanAttack = false;
+alarm[2] = AttackSpeed;

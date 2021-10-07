@@ -6,3 +6,6 @@ addScore = 0;
 
 Hp = 5;
 maxHp = 5;
+
+CanAttack = false;
+alarm[2] = AttackSpeed;
