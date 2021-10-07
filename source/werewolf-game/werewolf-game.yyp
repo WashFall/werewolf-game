@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_sheepTruck_crashed","path":"sprites/spr_sheepTruck_crashed/spr_sheepTruck_crashed.yy",},"order":63,},
     {"id":{"name":"oSwatDead","path":"objects/oSwatDead/oSwatDead.yy",},"order":19,},
     {"id":{"name":"trashcontainer","path":"sprites/trashcontainer/trashcontainer.yy",},"order":6,},
     {"id":{"name":"oPoliceDead","path":"objects/oPoliceDead/oPoliceDead.yy",},"order":18,},
@@ -53,6 +54,7 @@
     {"id":{"name":"AltShield","path":"scripts/AltShield/AltShield.yy",},"order":6,},
     {"id":{"name":"JackeyFont","path":"fonts/JackeyFont/JackeyFont.yy",},"order":1,},
     {"id":{"name":"oFountain","path":"objects/oFountain/oFountain.yy",},"order":20,},
+    {"id":{"name":"spr_sheepTruck","path":"sprites/spr_sheepTruck/spr_sheepTruck.yy",},"order":62,},
     {"id":{"name":"spr_police_shoot","path":"sprites/spr_police_shoot/spr_police_shoot.yy",},"order":11,},
     {"id":{"name":"spr_Wolf_Dead","path":"sprites/spr_Wolf_Dead/spr_Wolf_Dead.yy",},"order":21,},
     {"id":{"name":"SndHit","path":"sounds/SndHit/SndHit.yy",},"order":0,},
@@ -74,6 +76,7 @@
     {"id":{"name":"wulf_Sheet","path":"sprites/wulf_Sheet/wulf_Sheet.yy",},"order":52,},
     {"id":{"name":"oWolfUI","path":"objects/oWolfUI/oWolfUI.yy",},"order":7,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":3,},
+    {"id":{"name":"spr_sheepTruck_driving","path":"sprites/spr_sheepTruck_driving/spr_sheepTruck_driving.yy",},"order":61,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"Barrikad_ramlad","path":"sprites/Barrikad_ramlad/Barrikad_ramlad.yy",},"order":30,},
     {"id":{"name":"wulfblock_Sheet","path":"sprites/wulfblock_Sheet/wulfblock_Sheet.yy",},"order":53,},
