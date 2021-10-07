@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "spr_Wolf_walk",
+    "path": "sprites/spr_Wolf_walk/spr_Wolf_walk.yy",
   },
   "solid": false,
   "visible": true,

@@ -44,7 +44,7 @@
     "spriteId": {"name":"spr_Wolf_blockOn","path":"sprites/spr_Wolf_blockOn/spr_Wolf_blockOn.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

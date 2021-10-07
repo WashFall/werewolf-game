@@ -8,6 +8,8 @@ if instance_exists(oPlayer)
 	image_angle = playerDir - 90;
 	if(CanAttack){
 		audio_play_sound(SndShoot,0,0);
+		image_index = 0;
+		sprite_index = spr_police_shoot;
 		CanAttack = false;
 		alarm[2] = AttackSpeed;
 		var inst = instance_create_depth(x ,y ,0,oBullet);
@@ -30,4 +32,9 @@ if instance_exists(oPlayer)
 		instance_destroy();
 		
 	}
+}
+
+if instance_exists(oDead)
+{
+	sprite_index = spr_police;
 }

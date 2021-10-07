@@ -9,18 +9,25 @@ if(state = states.normal)
 
 
 
-	if (horizontal != 0 || vertical != 0){
-	    var MoveSpeed = 3;
+	if (horizontal != 0 || vertical != 0)
+	{
+	    sprite_index = spr_Wolf_walk;
+		var MoveSpeed = 3;
 	    var playerDir = point_direction(0, 0, horizontal, vertical);
 	    if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall ) && !place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oRoundWall )) x += lengthdir_x(MoveSpeed, playerDir);
 	    if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oRoundWall )) y += lengthdir_y(MoveSpeed, playerDir);
 
 	}
+	else
+	{
+		sprite_index = spr_Wolf_idle;
+	}
 
 
 	if(AltControl){
 		image_angle = point_direction(x, y, mouse_x, mouse_y) - 90;
-		if(mouse_check_button_pressed(mb_left)&&CanAttack){
+		if(mouse_check_button_pressed(mb_left)&&CanAttack)
+		{
 			CanAttack = false;
 			audio_play_sound(SndHit,0,0);
 					alarm[2] = AttackSpeed;
