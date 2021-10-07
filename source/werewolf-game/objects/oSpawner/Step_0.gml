@@ -1,10 +1,20 @@
-/// @description Spawn Enemies
+/// @description 
 
-if !instance_exists(oEnemy)
+if(spawnWave)
 {
-	repeat(wave_)
+	spawn++;
+	var i;
+	spawnWave = false;
+	alarm[0] = WaveTime;
+	//if(irandom(1)==1)
 	{
-		instance_create_layer(x,y,"Instances",oEnemy);
+		i = instance_create_layer(800,400,"Instances", oPoliceCar);
+		i.left = false;
 	}
-	wave_ += 1;
+	//else
+	//{
+	//	i = instance_create_layer(0,290,"Instances", oPoliceCar);
+	//	i.left = true;
+	//}
+	i.amount = spawn;
 }

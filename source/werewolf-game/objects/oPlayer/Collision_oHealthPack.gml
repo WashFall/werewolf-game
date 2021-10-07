@@ -11,5 +11,6 @@ if (Hp < 5)
 	{
 		instance_destroy()
 		audio_play_sound(SndHealthpack,0,0);
+		SpawnBlood();
 	}
 }

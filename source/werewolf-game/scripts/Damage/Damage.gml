@@ -4,6 +4,7 @@ function Damage(){
 	audio_play_sound(SndHurt,0,0);
 	alarm[1] = InvTime;
 	Hp--;
+	SpawnBlood();
 	if(state != states.blocking)
 	{
 		//image_index = 0;
