@@ -1,2 +1,4 @@
-ShakeScreen(5,5);
-Damage();
+if(state = states.normal){
+	ShakeScreen(5,5);
+	Damage();
+}

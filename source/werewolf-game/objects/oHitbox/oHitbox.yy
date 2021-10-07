@@ -4,7 +4,7 @@
     "path": "sprites/sprHitbox/sprHitbox.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

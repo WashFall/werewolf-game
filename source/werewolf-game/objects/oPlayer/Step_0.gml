@@ -1,7 +1,3 @@
-event_inherited();
-if(AltControl)AltControls();
-else Controls();
-
 if(state = states.normal)
 {
 	var left = keyboard_check(ord("A"));
@@ -23,25 +19,24 @@ if(state = states.normal)
 	}
 
 
-	if(AltControl)AltControls();
+	if(!AltControl)AltControls();
 	else Controls();
 	
 	
 
-	if(Hp == 0)
+	if(Hp <= 0)
 	{
 		oDeadAngle.angle = image_angle;
 		audio_play_sound(SndDeath,0,0);
 		instance_change(oDead, true);
 	}
-	
+	event_inherited();
 	
 }
 
 if(state = states.blocking)
 {
-	
-	if(!AltControl) Shield();
+	if(AltControl) Shield();
 	else AltShield();
 	
 }
