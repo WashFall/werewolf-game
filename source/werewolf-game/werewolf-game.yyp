@@ -57,6 +57,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":5,},
     {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":11,},
     {"id":{"name":"SndDeath","path":"sounds/SndDeath/SndDeath.yy",},"order":3,},
+    {"id":{"name":"Controls","path":"scripts/Controls/Controls.yy",},"order":4,},
     {"id":{"name":"SndEnemyHurt","path":"sounds/SndEnemyHurt/SndEnemyHurt.yy",},"order":4,},
     {"id":{"name":"sPlayerHurt","path":"sprites/sPlayerHurt/sPlayerHurt.yy",},"order":4,},
     {"id":{"name":"SndEnemyDeath","path":"sounds/SndEnemyDeath/SndEnemyDeath.yy",},"order":5,},
