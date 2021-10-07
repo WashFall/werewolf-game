@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 		audio_play_sound(SndEnemyHurt,0,0);
+		SpawnBlood();
 		alarm[1] = InvTime;
 		Hp--;
 		Inv = true;
