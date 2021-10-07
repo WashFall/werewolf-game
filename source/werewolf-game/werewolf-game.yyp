@@ -12,6 +12,7 @@
     {"id":{"name":"wulfdead_Sheet","path":"sprites/wulfdead_Sheet/wulfdead_Sheet.yy",},"order":54,},
     {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},"order":51,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
+    {"id":{"name":"scr_save","path":"scripts/scr_save/scr_save.yy",},"order":7,},
     {"id":{"name":"Gatulykta","path":"sprites/Gatulykta/Gatulykta.yy",},"order":33,},
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},"order":16,},
     {"id":{"name":"spr_sheep","path":"sprites/spr_sheep/spr_sheep.yy",},"order":12,},

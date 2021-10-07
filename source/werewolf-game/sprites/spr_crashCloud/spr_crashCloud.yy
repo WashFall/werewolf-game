@@ -53,7 +53,7 @@
     "spriteId": {"name":"spr_crashCloud","path":"sprites/spr_crashCloud/spr_crashCloud.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 16.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
