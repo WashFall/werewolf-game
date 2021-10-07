@@ -37,9 +37,13 @@ if(state = states.normal)
 	
 }
 
+if(!AltControl)AltControls();
+	else Controls();
+
 if(state = states.blocking)
 {
 	if(AltControl) AltShield();
 	else Shield(); 
+	
 	
 }
