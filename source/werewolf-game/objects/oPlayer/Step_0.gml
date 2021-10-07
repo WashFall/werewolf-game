@@ -21,12 +21,6 @@ if(state = states.normal)
 	    if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oRoundWall )) y += lengthdir_y(MoveSpeed, playerDir);
 
 	}
-
-
-	
-	
-	
-
 	if(Hp <= 0)
 	{
 		oDeadAngle.angle = image_angle;
@@ -34,7 +28,6 @@ if(state = states.normal)
 		instance_change(oDead, true);
 	}
 	event_inherited();
-	
 }
 
 if(!AltControl)AltControls();
@@ -42,8 +35,6 @@ if(!AltControl)AltControls();
 
 if(state = states.blocking)
 {
-	if(AltControl) AltShield();
+	if(!AltControl) AltShield();
 	else Shield(); 
-	
-	
 }
