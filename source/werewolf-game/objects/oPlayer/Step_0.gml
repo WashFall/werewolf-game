@@ -15,11 +15,9 @@ if(state = states.normal)
 
 	if (horizontal != 0 || vertical != 0)
 	{
-		var MoveSpeed = 3;
 	    var playerDir = point_direction(0, 0, horizontal, vertical);
 	    if(!place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oWall ) && !place_meeting(x + lengthdir_x(MoveSpeed, playerDir), y, oFountain )) x += lengthdir_x(MoveSpeed, playerDir);
 	    if(!place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oWall ) && !place_meeting(x, y + lengthdir_y(MoveSpeed, playerDir), oFountain )) y += lengthdir_y(MoveSpeed, playerDir);
-
 	}
 
 
