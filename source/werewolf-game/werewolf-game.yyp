@@ -59,6 +59,7 @@
     {"id":{"name":"Parkb_nk","path":"sprites/Parkb_nk/Parkb_nk.yy",},"order":37,},
     {"id":{"name":"oHitbox","path":"objects/oHitbox/oHitbox.yy",},"order":2,},
     {"id":{"name":"Damage","path":"scripts/Damage/Damage.yy",},"order":0,},
+    {"id":{"name":"spr_PoliceCar","path":"sprites/spr_PoliceCar/spr_PoliceCar.yy",},"order":43,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Soptunna_omkull","path":"sprites/Soptunna_omkull/Soptunna_omkull.yy",},"order":39,},
     {"id":{"name":"oWolfUI","path":"objects/oWolfUI/oWolfUI.yy",},"order":7,},
