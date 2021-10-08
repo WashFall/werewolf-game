@@ -1,4 +1,4 @@
- if instance_exists(oPlayer)
+if instance_exists(oPlayer)
 {
 	var playerDir = point_direction(x,y,oPlayer.x, oPlayer.y);
 	image_angle = 0;
@@ -19,7 +19,7 @@
 		image_index = 0;
 		sprite_index = spr_swat_shoot;
 		CanAttack = false;
-		alarm[2] = AttackSpeed;
+		alarm[2] = AttackSpeed * random_range(.5, 1.5);
 		var inst = instance_create_depth(x ,y ,0,oBullet);
 		inst.hspeed = lengthdir_x(ShotSpeed, playerDir);
 		inst.vspeed = lengthdir_y(ShotSpeed, playerDir);

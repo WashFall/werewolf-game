@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!other.crashed)
+if(!other.crashed&&!Inv)
 {
 	audio_play_sound(SndEnemyHurt,0,0);
 	SpawnBlood();

@@ -19,7 +19,7 @@
 		image_index = 0;
 		sprite_index = spr_police_shoot;
 		CanAttack = false;
-		alarm[2] = AttackSpeed;
+		alarm[2] = AttackSpeed* random_range(1, 2);
 		var inst = instance_create_depth(x ,y ,0,oBullet);
 		inst.hspeed = lengthdir_x(ShotSpeed, playerDir);
 		inst.vspeed = lengthdir_y(ShotSpeed, playerDir);
